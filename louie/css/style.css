@@ -7424,7 +7424,7 @@ h1, h2, h3, h4, h5,
         color: #000000;  font-family: Cookie ; font-size: 30px}
 
         #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
-       
+           
           visibility: visible;
           -webkit-transform: scaleX(1);
           -moz-transform: scaleX(1);
@@ -8004,7 +8004,10 @@ h1, h2, h3, h4, h5,
 
 .ftco-bread {
   background: #ccb78f !important;
-  padding: 4em 1.8em !important; 
+  padding-bottom: 4em;
+  padding-top: 4em;
+  padding-left: 2em !important;
+  
   
   }
   .ftco-bread .breadcrumbs {
@@ -8022,7 +8025,8 @@ h1, h2, h3, h4, h5,
   .ftco-bread .bread {
     font-weight: 700;
     color: #000000;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: Cookie }
 
 .instagram .container-fluid {
   padding-left: 0;
