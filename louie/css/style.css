@@ -7353,7 +7353,9 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     font-weight: 700;
-    font-size: 24px; }
+    font-size: 24px; 
+   
+  }
     #colorlib-aside #colorlib-logo span.img {
       display: block;
       width: 160px;
@@ -7370,7 +7372,9 @@ h1, h2, h3, h4, h5,
     #colorlib-aside #colorlib-logo a {
       display: inline-block;
       text-align: center;
-      color: #000000; }
+      color: #000000; 
+      border-bottom:2px solid black;
+    }
   #colorlib-aside #colorlib-main-menu ul {
     margin: 0;
     padding: 0; }
@@ -8641,7 +8645,7 @@ textarea.form-control {
   .sidebar-box h3.sidebar-heading {
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 30px; }
   @media (max-width: 767.98px) {
@@ -8767,5 +8771,8 @@ textarea.form-control {
   background: #6B8E23 !important;
 }
 .ftco-collection{
+  background: #008B8B !important;
+}
+.ftco-contact{
   background: #008B8B !important;
 }
